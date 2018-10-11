@@ -1,0 +1,179 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Joey Rooms</title>
+    <link href="css/third.css" rel="stylesheet" type="text/css">
+	 <link href="css/hover.css" rel="stylesheet" type="text/css">
+	 <link href="css/hover.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  .anyclass{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  }
+  </style>
+</head>
+
+<body>
+<header>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="second-page.html">Page2</a>
+  <a href="third.html">Page3</a>
+  <!-- <a href="four.html">Page4</a> -->
+</div>
+
+<nav class="navbar navbar-expand-sm bg-light justify-content-center">
+  <ul class="navbar-nav">
+  <li style="font-size:30px; list-style-type: none; cursor:pointer" onclick="openNav()">&#9776; </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#" style="text-decoration: none;">About Us</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#" style="text-decoration: none;">Contact Us</a>
+    </li>
+  </ul>
+  <ul class="navbar-nav" style="float: right;">
+  <li class="nav">
+  <Button class="btn btn-primary">SIGN IN</Button>
+  </li>
+  <li class="nav">
+  <Button class="btn btn-primary">HOST WITH US</Button>
+  </li>
+  </ul>
+  
+</nav>
+</header>
+<div class="search">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="col-md-3">
+<b>LOCATION</b><br>
+<input type="text" id="soruceLocation" class="form-control" placeholder="Hyderabad" name="sourcePlace" autocomplete="off">
+</div>
+<div class="col-md-3">
+<b>CHECK IN</b><br>
+<input type="date" id="soruceLocation" class="form-control" name="sourcePlace1" autocomplete="off">
+</div>
+<div class="col-md-3">
+<b>CHECK OUT</b><br>
+<input type="date" id="soruceLocation" class="form-control" name="sourcePlace1" autocomplete="off">
+</div>
+<div class="col-md-3">
+<b>GUESTS</b><br>
+<select id="soruceLocation" class="form-control" placeholder="" name="sourcePlace" autocomplete="off">
+<option>Guest 1<option>
+<option>Guest 2<option>
+<option>Guest 3<option>
+</select>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="anyclass">
+<div class="container-fluid">
+        <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+            <div class="col-md-4 ">
+                <div class="col-md-12" style="margin-top: 10px;">
+                    <div class="col-md-3">
+                    <button class=" btn btn-default" type="button">filter</button>
+                    </div>
+                    <div class="col-md-3">
+                        <button class=" btn btn-default" type="button">sort</button></div>
+                 
+                <div class="col-md-4">  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"><i class="fa fa-search" aria-hidden="true"></i>&nbsp;search by area
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Kukatpally</a></li>
+      <li><a href="#">SR Nagar</a></li>
+      <li><a href="#">Ameerpet</a></li>
+    </ul>
+  </div>
+                </div>
+                    </div>
+					
+                    <div class="col-md-12" id="leftdiv">
+                        <br>
+                <div class="col-md-4">
+                    <img src="images/page3/room.jpg" class="img-responsive" >
+                    </div>
+                    <div class="col-md-8">
+                    <p >Borra lakshmi nilayam 201</p>
+                        <h5>Shared room in 3BHK independent house in Hakimpet</h5>
+                        <h6 id="fur" >Fully Furnished| 1200 sq ft| 3 Beds Available</h6>
+                        <h6 >Rent starts from</h6>
+                        <h5>7000/bed</h5>
+                        
+                        <button type="button" class="col-md-offset-8 btn btn-primary" id="view" >view</button>
+                  
+                    </div>
+                    </div>
+                
+                     <div class="col-md-12 " id="leftdiv" >
+                        <br>
+                <div class="col-md-4">
+                    <img src="images/page3/room.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-8">
+                    <p>Borra lakshmi nilayam 201</p>
+                        <h5>Shared room in 3BHK independent house in Hakimpet</h5>
+                        <h6 id="fur" >Fully Furnished| 1200 sq ft| 3 Beds Available</h6>
+                        <h6 >Rent starts from</h6>
+                        <h5>7000/bed</h5>
+                        
+                        <button type="button" class="col-md-offset-8 btn btn-primary" id="view" >view</button>
+                  
+                    </div>
+                    </div>
+                      <div class="col-md-12 " id="leftdiv" >
+                        <br>
+                <div class="col-md-4">
+                    <img src="images/page3/room.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-8">
+                    <p>Borra lakshmi nilayam 201</p>
+                        <h5>Shared room in 3BHK independent house in Hakimpet</h5>
+                        <h6 id="fur" >Fully Furnished| 1200 sq ft| 3 Beds Available</h6>
+                        <h6 >Rent starts from</h6>
+                        <h5>7000/bed</h5>
+                        
+                        <button type="button" class="col-md-offset-8 btn btn-primary" id="view" >view</button>
+                  
+                    </div>
+                    </div>
+					
+            </div>
+               
+            <div class="col-md-8" >
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15224.687175898136!2d78.38991064999999!3d17.4514897!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1538111178144" width="890" height="652" frameborder="0" style="" allowfullscreen></iframe>
+            </div>
+            </div>
+        </div>
+		 </div>
+       
+
+
+
+<!-- side Nav Bar -->
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<!-- side Nav Bar -->
+</body>
+</html>
